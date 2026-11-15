@@ -14,7 +14,10 @@ if open_admin.lower() == "yes":
         print("wrong password")
 
 name = input("what is your name? ")
-print("welcome back", name)
+
+print("hello", name, "welcome to personal book manager")
+
+
 
 count = int(input("how many books do you want to enter? "))
 books = load_books()
