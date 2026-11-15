@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/python-3.13-blue)
 
-A simple book manager built with Python
+A simple book manager built using Python.
 
 ## Features
 - Add multiple books
