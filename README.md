@@ -10,10 +10,35 @@ A simple book manager built with python
 - Display books
 - Load Books
 - Admin mode
+- Set a priority (low, medium or high) for each book
+
+## Book Priority
+
+Every book has a name and a priority. The priority can be one of the following:
+
+- low
+- medium
+- high
 
 ## Requirements
 - Python
 - python-dotenv
+
+## Project Structure
+
+```
+personal_book_manager/
+│   .env.example
+│   .gitignore
+│   books.py
+│   main.py
+│   README.md
+│   requirements.txt
+│
+├───images/
+│       Animation.gif
+│       screenshot.png
+```
 
 ## Instalation
 Install the required packages
